@@ -8,7 +8,8 @@ This folder conists of three functions listed below.
 
 ### To Get Started
 
-- Run the file in Node
-- In Terminal
-- Run: node (FILENAME)
+- Run the file in Node 
+- In the Terminal Run: node (FILENAME)
 - Eg: node fizzbuzz.js
+
+#### 

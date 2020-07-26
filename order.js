@@ -16,5 +16,5 @@ const descendingOrder = (number) => {
 };
 
 descendingOrder(126823823823);
-descendingOrder(1268238243);
+// descendingOrder(1268238243);
 
