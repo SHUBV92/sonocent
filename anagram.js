@@ -1,17 +1,17 @@
-const anagram = (s, t) => {
-  if (s === t) {
+const anagram = (string1, string2) => {
+  if (string1 === string2) {
     return true;
   }
-  if (s.length !== t.length) {
+  if (string1.length !== string2.length) {
     return false;
   }
   let count = {};
 
-  for (let letter of s) {
+  for (let letter of string1) {
     count[letter] = (count[letter] || 0) + 1;
   }
 
-  for (let letter of t) {
+  for (let letter of string2) {
     if (!count[letter]) return false;
     else --count[letter];
   }
